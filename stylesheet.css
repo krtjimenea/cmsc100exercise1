@@ -1,0 +1,41 @@
+body {
+    background-color: #FEFFEB
+}
+
+@font-face {
+    font-family: WinkleFont;
+    src: url(Winkle-Regular.ttf);
+}
+@font-face {
+    font-family: PumpkinFont;
+    src: url(PumpkinCheesecake.otf);
+}
+
+h1{
+    font-family: WinkleFont;
+    text-align: center;
+    font-size: 60pt;
+    background-color: lightblue;
+    border-radius: 12px;
+}
+
+.Labels {
+    font-family: PumpkinFont;
+    font-size: 30pt;
+    background-color: lightblue;
+    border-radius: 12px;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+}
+
+.Answers {
+    font-family: PumpkinFont;
+    font-size: 30pt;
+    background-color: #f1c1d9;
+    border-radius: 12px;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 5px 5px 5px;
+    margin-left: 10px;
+}
